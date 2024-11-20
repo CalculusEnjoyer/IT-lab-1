@@ -1,0 +1,75 @@
+{
+  "filePath": "/Users/user/unv/ITLabs/testingdbnow.json",
+  "tables": {
+    "testing": {
+      "name": "testing",
+      "rows": [
+        {
+          "elements": {
+            "ids": {
+              "value": "1",
+              "column": "ids"
+            },
+            "id": {
+              "value": "1",
+              "column": "id"
+            }
+          }
+        },
+        {
+          "elements": {
+            "ids": {
+              "value": "1",
+              "column": "ids"
+            },
+            "id": {
+              "value": "2",
+              "column": "id"
+            }
+          }
+        }
+      ],
+      "columns": {
+        "ids": {
+          "type": "INT",
+          "name": "ids",
+          "nullAllowed": true
+        },
+        "id": {
+          "type": "INT",
+          "name": "id",
+          "nullAllowed": true
+        }
+      }
+    },
+    "testing2": {
+      "name": "testing2",
+      "rows": [
+        {
+          "elements": {
+            "money": {
+              "value": "$123,10",
+              "column": "money"
+            },
+            "id": {
+              "value": "1",
+              "column": "id"
+            }
+          }
+        }
+      ],
+      "columns": {
+        "money": {
+          "type": "MONEY_INV",
+          "name": "money",
+          "nullAllowed": true
+        },
+        "id": {
+          "type": "INT",
+          "name": "id",
+          "nullAllowed": true
+        }
+      }
+    }
+  }
+}

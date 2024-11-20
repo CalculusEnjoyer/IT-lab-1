@@ -1,0 +1,21 @@
+{
+  "filePath": "dbtesting20.11.json",
+  "tables": {
+    "testingijf": {
+      "name": "testingijf",
+      "rows": [],
+      "columns": {
+        "name": {
+          "type": "INT",
+          "name": "name",
+          "nullAllowed": true
+        },
+        "id": {
+          "type": "INT",
+          "name": "id",
+          "nullAllowed": true
+        }
+      }
+    }
+  }
+}

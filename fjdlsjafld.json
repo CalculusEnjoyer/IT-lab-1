@@ -1,0 +1,25 @@
+{
+  "filePath": "fjdlsjafld.json",
+  "tables": {
+    "fdsfs": {
+      "name": "fdsfs",
+      "rows": [
+        {
+          "elements": {
+            "id": {
+              "value": "1",
+              "column": "id"
+            }
+          }
+        }
+      ],
+      "columns": {
+        "id": {
+          "type": "INT",
+          "name": "id",
+          "nullAllowed": true
+        }
+      }
+    }
+  }
+}
